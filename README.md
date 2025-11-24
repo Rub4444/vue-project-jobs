@@ -21,18 +21,17 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
-```sh
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
+The server will run on http://localhost:8000
+npm run server
 
-```sh
+Vue will run on http://localhost:3000
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+Build for Production
 npm run build
-```
+
+Preview Production Build
+npm run preview
